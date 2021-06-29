@@ -238,7 +238,6 @@ which_wpull_args_partial, which_wpull_command):
 		"--plugin-script",         "{}/wpull_hooks.py".format(LIBGRABSITE),
 		"--save-cookies",          "{}/cookies.txt".format(working_dir),
 		"--delete-after",
-		"--page-requisites",
 		"--no-parent",
 		"--concurrent",            str(concurrency),
 		"--warc-file",             "{}/{}".format(working_dir, warc_name),
